@@ -138,6 +138,6 @@ Pod::Spec.new do |s|
   # s.dependency "JSONKit", "~> 1.4"
   s.ios.framework = 'MessageUI', 'CoreTelephony', 'SystemConfiguration', 'JavaScriptCore'
   s.ios.vendored_frameworks = "JuspaySafeBrowser.framework", 'c++', 'z'
-  s.resource = 'JuspaySafeBrowser.bundle'
+  s.resources = 'JuspaySafeBrowser.bundle'
 
 end
